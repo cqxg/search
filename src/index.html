@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Youtube Search</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="input-container">
+            <div class="input__content">
+                <input class="cbox" type="checkbox" />
+                <label class="add" for="cbox">Find a Video</label>
+                <input class="message" type="search" id="textInput" />
+            </div>
+    </header>
+
+    <main>
+        <div class="cards_wrapper" id="scroll">
+            <div class="cards"></div>
+        </div>
+
+        <template id="card_template">
+            <div class="cards_item">
+                <div class="card">
+                    <div class="card_image"><img id="prevImage" src=""></div>
+                    <div class="card_content">
+                        <div class="stat-wrapper">
+                            <h1 class="title"></h1>
+                            <p class="time"></p>
+                            <p class="views"></p>
+                            <p class="likes"></p>
+                        </div>
+                        <a href="" class="btn">watch this video</a>
+                        <p class="info"></p>
+                    </div>
+                </div>
+            </div>
+        </template>
+
+        <div class="dots">
+        </div>
+
+        <div class="button">
+            <button class="more">MORE VIDEO</button>
+        </div>
+
+
+    </main>
+
+    <footer class="footer">
+        <span class="footext">© 2019 Copyright CQXG Media</span>
+    </footer>
+
+
+</body>
+
+</html>
